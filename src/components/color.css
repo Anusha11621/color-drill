@@ -1,11 +1,22 @@
 .flex{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
     gap:20px;
+    flex-wrap: wrap;
+    
+    
 }
 .gap{
     display: flex;
-    gap:30px;
+    gap:60px;
+    flex-wrap: wrap;
+    
     justify-content: center;
+}
+
+@media(min-width:1200px){
+    .flex{
+        width: 800px;
+    }
 }

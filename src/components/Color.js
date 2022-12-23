@@ -9,13 +9,13 @@ function Color(props) {
         {
         data.map((element)=>{
             return (
-                <div className='p-5 m-lg-5 gap'>
+                <div className='p-5  gap '>
                     <div>
                         <h3>{element[0].toUpperCase()+element.slice(1)}</h3>
                         <p>Colours. {element[0].toUpperCase()+element.slice(1)}</p>
                     </div>
                     <div className='flex'>
-                        <div>
+                        <div >
                         <Variant  bg ={props.info[element]}></Variant>
                         </div>
                     </div>
