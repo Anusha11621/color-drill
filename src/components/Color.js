@@ -51,8 +51,8 @@ function Variant(props) {
                         <div  style={{backgroundColor:shade, width:'120px',height:'40px',borderRadius:'10px'}}>
                         
                         </div>
-                        <div className='d-flex'>
-                            <p className='mr-3'>{Count()}</p>
+                        <div className='d-flex justify-content-between'>
+                            <p className=''>{Count()}</p>
                             <p>{shade}</p>
                         </div>
                     </div>
